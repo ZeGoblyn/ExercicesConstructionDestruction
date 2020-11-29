@@ -56,6 +56,7 @@ int main()
 	std::cout << "NOTE: le programme detruit des elements de l'exercice 75 pour une raisons inconnue\n";
 	std::cout << "\n";
 
+
 //----------------------------------------------------------------------------------------------------------------------------------------------
 //77
 	std::cout << "\n";
@@ -77,6 +78,10 @@ int main()
 	int_table.distinct();	//Permet de tester le nombre d'entier différents dans un tableau (77.2)
 
 	set_int table2(int_table);		//Création d'un tableau par copie
+
+	int_table.~set_int();
+
+	table2.~set_int();
 
 	return 0;
 }
