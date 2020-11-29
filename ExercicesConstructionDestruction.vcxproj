@@ -140,10 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="chose.cpp" />
+    <ClCompile Include="demo.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="set_int.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chose.h" />
+    <ClInclude Include="demo.h" />
+    <ClInclude Include="point.h" />
+    <ClInclude Include="set_int.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
