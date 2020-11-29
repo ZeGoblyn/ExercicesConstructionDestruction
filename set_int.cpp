@@ -72,12 +72,10 @@ void set_int::entier(int n)
 	int i;
 	bool pres = false;
 
-	//std::cout << "JAAJ\n";
 	//std::cout << compt_int;
 
 	for (i = 0; i < this->compt_int; i++)
 	{
-		//std::cout << "JooJ\n";
 		if (this->adrTab[i] == n)
 		{
 			pres = true;
